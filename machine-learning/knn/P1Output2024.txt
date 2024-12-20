@@ -1,0 +1,111 @@
+Question 1:
+K=3
+i. Accuracy: 0.7
+ii. Recall: 0.7142857142857143
+iii. Precision: 0.5555555555555556
+iv. F1 Score: 0.625
+v. Confusion Matrix:
+[[9 4]
+ [2 5]]
+
+K=5
+i. Accuracy: 0.8
+ii. Recall: 0.8571428571428571
+iii. Precision: 0.6666666666666666
+iv. F1 Score: 0.75
+v. Confusion Matrix:
+[[10  3]
+ [ 1  6]]
+
+K=7
+i. Accuracy: 0.8
+ii. Recall: 0.8571428571428571
+iii. Precision: 0.6666666666666666
+iv. F1 Score: 0.75
+v. Confusion Matrix:
+[[10  3]
+ [ 1  6]]
+
+Question 2:
+
+K = 3, Feature set: [0, 1]
+i. Accuracy = 0.8
+ii. Precision = 0.7777777777777778
+iii. Recall = 0.7777777777777778
+iv. F1 Score = 0.7777777777777778
+v. Confusion Matrix:
+[[9 2]
+ [2 7]]
+
+K = 3, Feature set: [0, 1, 3]
+i. Accuracy = 0.9
+ii. Precision = 0.9
+iii. Recall = 0.9
+iv. F1 Score = 0.9
+v. Confusion Matrix:
+[[9 1]
+ [1 9]]
+
+K = 3, Feature set: [0, 1, 3, 4, 5, 6, 7]
+i. Accuracy = 0.85
+ii. Precision = 0.8181818181818182
+iii. Recall = 0.9
+iv. F1 Score = 0.8571428571428572
+v. Confusion Matrix:
+[[8 2]
+ [1 9]]
+
+K = 5, Feature set: [0, 1]
+i. Accuracy = 0.8
+ii. Precision = 0.9
+iii. Recall = 0.75
+iv. F1 Score = 0.8181818181818182
+v. Confusion Matrix:
+[[7 1]
+ [3 9]]
+
+K = 5, Feature set: [0, 1, 3]
+i. Accuracy = 0.8
+ii. Precision = 0.875
+iii. Recall = 0.7
+iv. F1 Score = 0.7777777777777777
+v. Confusion Matrix:
+[[9 1]
+ [3 7]]
+
+K = 5, Feature set: [0, 1, 3, 4, 5, 6, 7]
+i. Accuracy = 0.5
+ii. Precision = 0.5
+iii. Recall = 0.5
+iv. F1 Score = 0.5
+v. Confusion Matrix:
+[[5 5]
+ [5 5]]
+
+K = 7, Feature set: [0, 1]
+i. Accuracy = 0.65
+ii. Precision = 0.8181818181818182
+iii. Recall = 0.6428571428571429
+iv. F1 Score = 0.7200000000000001
+v. Confusion Matrix:
+[[4 2]
+ [5 9]]
+
+K = 7, Feature set: [0, 1, 3]
+i. Accuracy = 0.8
+ii. Precision = 0.8888888888888888
+iii. Recall = 0.7272727272727273
+iv. F1 Score = 0.7999999999999999
+v. Confusion Matrix:
+[[8 1]
+ [3 8]]
+
+K = 7, Feature set: [0, 1, 3, 4, 5, 6, 7]
+i. Accuracy = 0.9
+ii. Precision = 0.8888888888888888
+iii. Recall = 0.8888888888888888
+iv. F1 Score = 0.8888888888888888
+v. Confusion Matrix:
+[[10  1]
+ [ 1  8]]
+
