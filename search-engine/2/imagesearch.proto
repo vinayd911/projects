@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+package imagesearch;
+
+// Service definition
+service ImageSearchService {
+    // Method to search for an image based on a keyword
+    rpc SearchForKeyword(KeywordRequest) returns (ImageResponse);
+}
+
+// Message for keyword request
+message KeywordRequest {
+    string keyword = 1;
+}
+
+// Message for image response
+message ImageResponse {
+    bytes image_data = 1;
+}

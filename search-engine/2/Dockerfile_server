@@ -1,0 +1,15 @@
+# Dockerfile_server
+FROM python:3.8-slim
+
+WORKDIR app
+
+# Copy required files
+COPY grpc_server.py /app
+COPY imagesearch_pb2.py /app
+COPY imagesearch_pb2_grpc.py /app
+COPY main_images /app/main_images
+
+# Install gRPC and protobuf
+RUN pip install grpcio protobuf
+
+CMD ["python", "grpc_server.py"]
